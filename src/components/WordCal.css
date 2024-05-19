@@ -1,0 +1,36 @@
+body {
+    font-family: "American Typewriter";
+}
+
+.react-calendar {
+    margin: 5%;
+    width: 85%;
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.react-calendar__navigation {
+    background-color: lightcoral;
+    color: lightgoldenrodyellow;
+}
+
+.react-calendar__month-view {
+    background-color: lightgoldenrodyellow;
+    color: lightcoral;
+    font-family: "American Typewriter"
+}
+
+.react-calendar__month-view__days__day--weekend {
+    color: black;
+}
+.react-calendar__tile--now {
+    background-color: lightcoral;
+    color: lightgoldenrodyellow;
+    font-family: "American Typewriter";
+}
+
+.react-calendar__tile--now:hover {
+    background-color: black;
+    color: lightcoral;
+    font-family: "American Typewriter";
+}
